@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "title": { "en": "Aiwork plugins", "zh": "Aiwork 插件" },
+  "description": { "en": "Third-party DSH bundles from aiwork", "zh": "aiwork 第三方 DSH 组合包" },
+  "metadata": { "categories": {}, "labels": {}, "sortKeys": {} },
+  "plugins": [
+    {
+      "name": "@aiwork/dsh-knowledge-graph",
+      "title": { "en": "Smart Graph", "zh": "智能图谱" },
+      "description": {
+        "en": "Build and edit a knowledge graph from one article inside DSH",
+        "zh": "在 DSH 内把一篇文章建成可编辑的知识图谱"
+      },
+      "icon": "icon.svg",
+      "author": "Aiwork",
+      "homepage": "https://www.futureeditor.com",
+      "dist-tags": { "latest": "1.0.0" },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1732000000,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.0 <0.3.0" }
+        }
+      ]
+    }
+  ]
+}

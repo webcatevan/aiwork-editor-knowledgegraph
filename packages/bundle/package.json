@@ -1,0 +1,58 @@
+{
+  "name": "@aiwork/dsh-knowledge-graph",
+  "version": "1.0.0",
+  "description": "DSH 智能图谱 — 文章 LLM 建图、展示与修改",
+  "homepage": "https://www.futureeditor.com",
+  "icon": "./icon.svg",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./client": "./dist/client.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./skill/SKILL.md": "./skill/SKILL.md"
+  },
+  "files": [
+    "dist",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "skill",
+    "shared",
+    "README.md",
+    "README.zh.md"
+  ],
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/canvas-model.mjs && node tests/host.smoke.mjs && node tests/client.smoke.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml",
+      "platforms": [
+        "darwin",
+        "win32",
+        "linux"
+      ]
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.0-0 <0.3.0",
+    "node": ">=22.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webcatevan/aiwork-editor-knowledgegraph.git",
+    "directory": "packages/bundle"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "entityTypes": [
+    { "code": "concept", "title": "概念" },
+    { "code": "person", "title": "人物" },
+    { "code": "event", "title": "事件" },
+    { "code": "organization", "title": "组织" },
+    { "code": "location", "title": "地点" }
+  ],
+  "relationTypes": [
+    { "code": "related_to", "title": "相关" },
+    { "code": "part_of", "title": "属于" },
+    { "code": "causes", "title": "导致" },
+    { "code": "located_in", "title": "位于" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@aiwork/harness-kg-library",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "0.2.2-rc.1",
+    "typescript": "^5.9.3"
+  }
+}

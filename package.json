@@ -1,0 +1,13 @@
+{
+  "name": "aiwork-editor-knowledgegraph",
+  "private": true,
+  "description": "DSH 智能图谱 — 文章 LLM 建图、展示与修改",
+  "homepage": "https://www.futureeditor.com",
+  "scripts": {
+    "build": "node packages/bundle/build.mjs",
+    "test": "node packages/bundle/tests/canvas-model.mjs && node packages/bundle/tests/host.smoke.mjs && node packages/bundle/tests/client.smoke.mjs"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}

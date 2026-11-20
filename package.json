@@ -5,7 +5,7 @@
   "homepage": "https://www.futureeditor.com",
   "scripts": {
     "build": "node packages/bundle/build.mjs",
-    "test": "node packages/bundle/tests/canvas-model.mjs && node packages/bundle/tests/host.smoke.mjs && node packages/bundle/tests/client.smoke.mjs"
+    "test": "node packages/bundle/tests/canvas-model.mjs && node packages/bundle/tests/canvas.dom.mjs && node packages/bundle/tests/host.smoke.mjs && node packages/bundle/tests/client.smoke.mjs"
   },
   "engines": {
     "node": ">=22.5"

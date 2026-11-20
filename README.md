@@ -25,6 +25,4 @@ dsh plugin install link:/绝对路径/aiwork-editor-knowledgegraph/packages/bund
 
 数据目录：`<profile>/kg-workshop/library.sqlite`。
 
-## 当前不做
-
-`.fkg` 导出、从智能编辑拉正文、上传管理端，都不在这一版。
+本包 `private`，用上面的 link 安装。不发布到公共 npm。

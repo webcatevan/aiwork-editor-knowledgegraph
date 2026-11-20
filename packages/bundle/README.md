@@ -20,6 +20,6 @@ The published tree includes `dist/`. After source changes, run `node build.mjs` 
 
 Build uses the model selected in settings. **Build with AI** writes the graph into the profile library. **Save graph** enables only after a node name or the JSON changes. Dragging nodes does not.
 
-This version does not export `.fkg`, pull text from Smart Edit, or upload to the admin service.
+This package is `private`. Install it with the link above. It is not published to the public npm registry.
 
 Data directory: `<profile>/kg-workshop/library.sqlite`.
